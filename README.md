@@ -10,7 +10,7 @@ https://becss.dev 🔗
 
 <p>beCSS provides a set of components and a Flat UI Color Scheme as starting point, and it is structure taking efficiency and simplicity as a reference.</p>
 
-1. Free and Open Source (MIT license)
+1. Free and Open Source (GPL license)
 2. Dual 12 column Flexbox-based and Grid-based Responsive Layout
 3. Lightweight (28kb not compressed)
 4. Built without preprocessors, only CSS
