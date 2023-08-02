@@ -12,7 +12,7 @@ https://becss.dev 🔗
 
 1. Free and Open Source (GPL license)
 2. Dual 12 column Flexbox-based and Grid-based Responsive Layout
-3. Lightweight (28kb not compressed)
+3. Lightweight (35kb not compressed)
 4. Built without preprocessors, only CSS
 5. Agnostic and Hackable
 6. build-in Flat UI Color Scheme
