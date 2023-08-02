@@ -2,8 +2,6 @@
 
 <h2>A simple and hackable Style Sheet</h2>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/444c3532-445e-4176-be66-c93c449695f0/deploy-status)](https://app.netlify.com/sites/becss/deploys)
-
 https://becss.dev 🔗
 
 <p>beCSS is a lightweight (35kb), hackable, responsive, flat-style-ready, and Flexbox-based style sheet, created directly with CSS without any preprocessors. Since beCSS is a single file, it does not include javascript.</p>
