@@ -1,0 +1,25 @@
+{
+  "name": "becss",
+  "version": "0.1.0",
+  "description": "A simple and hackable Style Sheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iturbides/becss.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "html",
+    "front-end"
+  ],
+  "author": "Matias Iturbides",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iturbides/becss/issues"
+  },
+  "homepage": "https://github.com/iturbides/becss#readme"
+}
