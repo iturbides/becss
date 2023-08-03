@@ -19,4 +19,6 @@ https://becss.dev 🔗
 7. KISS principle
 8. It is improvable (of course)
 
+To see the documentation, please visit: https://becss.dev
+
 
