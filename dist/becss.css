@@ -1,4 +1,4 @@
-/****** beCSS v0.1.0 | GNU GPLv3 License *******
+/****** beCSS v0.1.2 | GNU GPLv3 License *******
 ***** A simple and hackable Style Sheet **
 ****** Copyright 2023 Matías Iturbides ***/
 :root {
@@ -39,7 +39,7 @@
 	--font-type-3: Tahoma, sans-serif;
 	--font-type-4: "Open Sans", "Trebuchet", "sans-serif";
 	/* Fonts size */
-	--body-font-size: 1em;
+	--body-font-size: 1.1em;
 	--footer-font-size: 1em;
 	--blockquote-font-size: 1em;
 	--caption-font-size: .9em;
@@ -70,6 +70,7 @@ summary {
 	text-decoration: none;
 	box-sizing: border-box;
 }
+html { scroll-behavior: smooth; }
 body {
 	font-family: var(--font-type-4);
 	font-weight: thin;
@@ -116,11 +117,10 @@ h6 { 	font-size: var(--h6-font-size);}
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	text-decoration: none;
- /* margin: 0.20em 0 0.20em; */
 	margin: 10px 0;
 }
 h1, h2 {
-	line-height: 1em;
+	line-height: 1.4em;
 	color: var(--dark-dark);
 }
 h3, h4, h5, h6,
@@ -148,20 +148,20 @@ span a:link {
 .be-hover-brand-color a:hover,
 .be-hover-brand-color div:hover,
 .be-btn.be-hover-brand-color:hover 	{
-	background-color: var(--brand-color);
+	background-color: var(--brand-color) !important;
 }
 .be-dark-shades, 
 .be-hover-dark-shades a:hover,
 .be-hover-dark-shades div:hover,
 .be-btn.be-hover-dark-shades:hover 	{
-	background-color: var(--dark-shades);
+	background-color: var(--dark-shades) !important;
 	color: #ffffff;
 } 
 .be-dark-accent,
 .be-hover-dark-accent a:hover,
 .be-hover-dark-accent div:hover,
 .be-btn.be-hover-dark-accent:hover	{
-	background-color: var(--dark-accent);
+	background-color: var(--dark-accent) !important;
 	color: #ffffff;
 } 
 .be-light-shades,
@@ -441,18 +441,18 @@ span a:link {
 	flex-direction: row;
 }
 /* 12 columns classes Flexbox */
-.be-col-1  {	flex: calc(98% * 1 / 12); }
-.be-col-2  {	flex: calc(98% * 2 / 12); }
-.be-col-3  {  flex: calc(98% * 3 / 12); }
-.be-col-4  {	flex: calc(98% * 4 / 12); }
-.be-col-5  {	flex: calc(98% * 5 / 12); }
-.be-col-6  {	flex: calc(98% * 6 / 12); }
-.be-col-7  {	flex: calc(98% * 7 / 12); }
-.be-col-8  {	flex: calc(98% * 8 / 12); }
-.be-col-9  {	flex: calc(98% * 9 / 12); }
-.be-col-10 {	flex: calc(98% * 10 / 12);}
-.be-col-11 {	flex: calc(98% * 11 / 12);}
-.be-col-12 {	flex: calc(98% * 12 / 12);}
+.be-col-1  {	flex: calc(99% * 1 / 12); }
+.be-col-2  {	flex: calc(99% * 2 / 12); }
+.be-col-3  {  flex: calc(99% * 3 / 12); }
+.be-col-4  {	flex: calc(99% * 4 / 12); }
+.be-col-5  {	flex: calc(99% * 5 / 12); }
+.be-col-6  {	flex: calc(99% * 6 / 12); }
+.be-col-7  {	flex: calc(99% * 7 / 12); }
+.be-col-8  {	flex: calc(99% * 8 / 12); }
+.be-col-9  {	flex: calc(99% * 9 / 12); }
+.be-col-10 {	flex: calc(99% * 10 / 12);}
+.be-col-11 {	flex: calc(99% * 11 / 12);}
+.be-col-12 {	flex: calc(99% * 12 / 12);}
 .be-col-ghost { 
 	padding: 0;
 	gap: 0;
@@ -1378,3 +1378,5 @@ display: none;
 .be-bdr-3 { border-width: 3px !important; }
 .be-bdr-4 { border-width: 4px !important; }
 .be-bdr-5 { border-width: 5px !important; }
+@media all and (min-width: 900px) {
+	.be-h100 { height: 100vh;	} }

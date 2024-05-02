@@ -3,7 +3,7 @@
 <h2>A simple and hackable Style Sheet</h2>
 
 <div>
-       <img src="https://img.shields.io/badge/NPM-v0.1.1 -blue?logo=npm">
+       <img src="https://img.shields.io/badge/NPM-v0.1.2 -blue?logo=npm">
         <img src="https://img.shields.io/badge/GPLv3-License-orange?logo=mit">
         <img src="https://img.shields.io/badge/CSS-Only-blue?logo=css3">
      </div>
