@@ -10,7 +10,7 @@
 
 
 
-https://becss.dev 🔗
+https://becss.netlify.app 🔗
 
 <p>beCSS is a lightweight (35kb), hackable, responsive, flat-style-ready, and Flexbox-based style sheet, created directly with CSS without any preprocessors. Since beCSS is a single file, it does not include javascript.</p>
 
@@ -35,6 +35,6 @@ npm install becss
 ```
 
 
-To see the documentation, please visit: https://becss.dev
+To see the documentation, please visit: https://becss.netlify.app
 
 
